@@ -34,6 +34,7 @@
 #include "components/camera.h"
 #include "components/censor.h"
 #include "components/chat.h"
+#include "components/visuals.h"
 #include "components/console.h"
 #include "components/controls.h"
 #include "components/countryflags.h"
@@ -153,6 +154,7 @@ public:
 	CInfoMessages m_InfoMessages;
 	CCamera m_Camera;
 	CChat m_Chat;
+    CVisuals m_Visuals;
 	CCensor m_Censor;
 	CMotd m_Motd;
 	CBroadcast m_Broadcast;
