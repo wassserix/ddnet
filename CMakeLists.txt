@@ -2654,6 +2654,8 @@ if(CLIENT)
     components/censor.h
     components/chat.cpp
     components/chat.h
+    components/visuals.cpp
+    components/visuals.h
     components/community_icons.cpp
     components/community_icons.h
     components/console.cpp
