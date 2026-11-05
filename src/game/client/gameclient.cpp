@@ -126,6 +126,7 @@ void CGameClient::OnConsoleInit()
 					      &m_MapImages,
 					      &m_Effects, // doesn't render anything, just updates effects
 					      &m_Binds,
+		                  &m_Visuals,
 					      &m_Binds.m_SpecialBinds,
 					      &m_Controls,
 					      &m_Camera,
